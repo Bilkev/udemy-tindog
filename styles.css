@@ -85,17 +85,22 @@ p {
 
 /* Title Image */
 
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+
+}
+
+.title-image-container{
+    height: 500px;
 }
 
 /* Features Section */
 
 #features {
   position: relative;
+  z-index: 1;
 }
 
 .feature-title {
@@ -180,3 +185,5 @@ p {
     transform: rotate(0);
   }
 }
+
+@media (min-width: 1200px) {
