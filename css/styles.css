@@ -173,6 +173,7 @@ p {
   }
 
   .title-image {
+    width: 50%;
     position: static;
     transform: rotate(0);
   }
